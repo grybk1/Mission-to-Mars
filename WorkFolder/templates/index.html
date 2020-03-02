@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mission to Mars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron text-center">
+                    <h1>Mission to Mars</h1>
+                </div>
+             
+             </div>   
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                  <h2></h2>{{ marsData.newsTitle }}</h2></br>
+                  {{marsData.newsArticle}}
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-7" id="left">
+               <img src={{marsData.featuredImage}} alt={{marsData.featuredImage}} width='90%'>
+
+            </div>
+            <div class="col-md-1" id="filler">
+            </div>
+            <div class="col-md-3" id="right">
+                {{marsData.weatherForcast}}<br>
+                {{marsData.propertiesHtml}}
+            </div>
+              
+
+      
+    </div>
+</body>
+
+</html>

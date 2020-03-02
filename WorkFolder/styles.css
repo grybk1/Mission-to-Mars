@@ -1,0 +1,87 @@
+
+body{
+  background: white;
+}
+
+
+iframe{
+ width: 100%;
+ border-width: 0vmin;
+ border-style: none;
+ padding: 0mm;
+ border: 0mm;
+ margin: 0mm;
+ overflow: hidden;
+
+}
+.navbar{
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.navbar h1{
+  margin-left: 20px;
+  color: white;
+  background: rgb(16, 165, 145);
+   
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#left{
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  
+}
+#right{
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  
+}
+#filler{
+  background: rgb(128, 125, 125);
+  
+}
+
+#explanation{
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  font-family: Georgia, serif;
+
+}
+
+img{
+   float: left; 
+  }
+P{
+  margin-top: 20px;
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  font-family: Georgia, serif;
+  
+}
+
+@media (max-width: 480px){
+  .navbar li{
+      padding 10px;
+  }
+  .navbar ul{
+   visibility: hidden;
+  }
+  #nav-select {
+  visibility: visible;
+}
+}
+
