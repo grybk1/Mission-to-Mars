@@ -21,10 +21,17 @@
              
              </div>   
         </div>
-
         <div class="row">
             <div class="col-md-12">
-                  <h2></h2>{{ marsData.newsTitle }}</h2></br>
+                
+                <a href='/scrape'>Scrape</a> , <a href="/Hemispheres">Hemispheres</a>
+                
+             
+             </div>   
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                  <h2>{{ marsData.newsTitle }}</h2></br>
                   {{marsData.newsArticle}}
             </div>
         </div>
@@ -39,7 +46,12 @@
             <div class="col-md-1" id="filler">
             </div>
             <div class="col-md-3" id="right">
+                <hr>
                 {{marsData.weatherForcast}}<br>
+                <hr>
+                <B>Stored HTMl not rendering</B>
+                <hr>
+
                 {{marsData.propertiesHtml}}
             </div>
               

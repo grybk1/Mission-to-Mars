@@ -14,11 +14,6 @@ mongo = PyMongo(app)
 @app.route("/")
 def echo():
     mars_data=mongo.db.mars_artifacts.find_one()
-    # return render_template("index.html", 
-    #                        MarsNewsTag=mars_data.newsTitle,
-    #                        FeaturedImageTag="Sweet Image",
-    #                        WeatherTag="Great Weather",
-    #                        FactsTag="Nothing but the FACTS" )
     return render_template ("index.html", marsData=mars_data)
 
 
@@ -31,10 +26,7 @@ def scraper():
 @app.route("/Hemispheres")
 def Hemispheres():
     mars_data=scrape_mars.getHemispheres()
-    #mongo.db.mars_hemispheres.insert_one(mars_data)
     return render_template ("hemispheres.html", marsData1=mars_data[0],marsData2=mars_data[1],marsData3=mars_data[2],marsData4=mars_data[3])
    
-
-
 if __name__ == "__main__":
     app.run(debug=True)

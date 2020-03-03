@@ -92,3 +92,4 @@ def getHemispheres():
     
     
     return hemisphere_image_urls           
+
