@@ -14,5 +14,7 @@ The web scrapping module is accomplished using Python, Splinter and Beautifulsou
 ![alt text](https://github.com/grybk1/web-scraping-challenge/blob/master/Grade_This/hemispheres_html.PNG?raw=true)
 
 
+
 Image of Splinter Crawling NASA Twitter Feed:<BR>
 ![alt text](https://github.com/grybk1/web-scraping-challenge/blob/master/Grade_This/splinter_scraping.PNG?raw=true)
+ Splinter used to automate the web crawling.  BeautifulSoup used to parse the HTML.  
