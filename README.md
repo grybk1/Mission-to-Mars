@@ -6,4 +6,7 @@ Python, Pandas, Splinter, BeautifulSoup, Flask, mongoDB.
 
 The web scrapping module is accomplished using Python, Splinter and Beautifulsoup. The data wrangling is handled with Pandas dataframes.  The results are stored in MongoDB.  The presentation is accomplished using Flask to extract the data and present it into HTMl.  
 
+ Index.html<br>
+![alt text](https://github.com/grybk1/web-scraping-challenge/blob/master/Grade_This/index_hmtl.PNG?raw=true)
+
 
